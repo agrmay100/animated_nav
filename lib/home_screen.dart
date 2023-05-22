@@ -21,9 +21,9 @@ class HomeScreen extends StatelessWidget {
         final selectedIndex = controller.index;
 
         return GestureDetector(
-            onPanUpdate: (details) {
-              print(details.delta.dx);
-            },
+            // onPanUpdate: (details) {
+            //   print(details.delta.dx);
+            // },
             onPanEnd: (details) {
               // Swiping in right direction.
               if (details.velocity.pixelsPerSecond.dx > 0) {
@@ -76,7 +76,6 @@ class HomeScreen extends StatelessWidget {
                       }
                     }
 
-                    print(value);
                     // print(value);
                   })
                   // onPageChanged: (index, reason) {

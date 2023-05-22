@@ -27,7 +27,13 @@ const List<Tab> myTabs = <Tab>[
 const List<Widget> widgetOptions = <Widget>[
   Center(
     child: Text(
-      'Home',
+      'Areas',
+      style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
+    ),
+  ),
+  Center(
+    child: Text(
+      'Leaderboard',
       style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
     ),
   ),
@@ -39,19 +45,13 @@ const List<Widget> widgetOptions = <Widget>[
   ),
   Center(
     child: Text(
-      'Home',
+      'Teams',
       style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
     ),
   ),
   Center(
     child: Text(
-      'Home',
-      style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
-    ),
-  ),
-  Center(
-    child: Text(
-      'Home',
+      'Collection',
       style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
     ),
   ),
