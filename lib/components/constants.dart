@@ -6,7 +6,7 @@ const List<Tab> myTabs = <Tab>[
     icon: Icon(Icons.architecture),
   ),
   Tab(
-    text: 'Leaderboard',
+    text: 'Leader',
     icon: Icon(Icons.leaderboard),
   ),
   Tab(
@@ -18,7 +18,7 @@ const List<Tab> myTabs = <Tab>[
     icon: Icon(Icons.person),
   ),
   Tab(
-    text: 'Collection',
+    text: 'Collect',
     icon: Icon(Icons.collections),
   ),
 ];
@@ -33,7 +33,7 @@ const List<Widget> widgetOptions = <Widget>[
   ),
   Center(
     child: Text(
-      'Leaderboard',
+      'Leader',
       style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
     ),
   ),
@@ -51,7 +51,7 @@ const List<Widget> widgetOptions = <Widget>[
   ),
   Center(
     child: Text(
-      'Collection',
+      'Collect',
       style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
     ),
   ),

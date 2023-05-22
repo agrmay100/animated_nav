@@ -96,13 +96,13 @@ class AnimatedTabView extends StatelessWidget {
                       child: AnimatedScale(
                         duration: _durationIcon,
                         curve: Curves.easeInOutBack,
-                        scale: isActive ? 2.2 : 1.5,
+                        scale: isActive ? 2.5 : 1.5,
                         child: AnimatedSlide(
                           duration: _durationIcon,
                           curve: Curves.easeInOutBack,
-                          offset: Offset(0, isActive ? -0.15 : 0),
+                          offset: Offset(0, isActive ? -0.19 : 0),
                           child: Padding(
-                            padding: const EdgeInsets.only(top: 16, left: 18),
+                            padding: const EdgeInsets.only(top: 18, left: 18),
                             child: Column(
                               children: [
                                 tab.icon ??
